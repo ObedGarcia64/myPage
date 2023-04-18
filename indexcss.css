@@ -2,11 +2,14 @@ body{
     background-color: black;
 }
 .wallpaper{
+    position: relative;
+    z-index: 1;
     width: 90%;
-    margin: -20% 0% 0% 6%;
+    margin: -20% 0% 0% 6%; 
 }
-
 .profilePicture{
+    position: relative;
+    z-index: 3;
     width: 20%;
     height: auto;
     border-radius: 360%;
@@ -14,8 +17,13 @@ body{
     margin: -20% 0% 0% 42%;
 }
 .principal{
+    position: relative;
+    z-index: 2;
     background-color: white;
     width: 80%;
-    margin: 0% 0% 0% 10%;
+    margin: -12% 0% 0% 10%;
     border-radius: 15px;
+}
+.principal .myname{
+    margin-top: 20%;
 }
